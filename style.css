@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  padding: 28px;
+}
+
+.logo_img {
+  display: block;
+  margin: 0 auto;
+  width: 138px;
+  height: 40px;
+}
+
+.main_text {
+  font-size: 16px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.login {
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: white;
+  background-color: #2f80ed;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 15px 0;
+}
